@@ -66,7 +66,7 @@ const faqs = [
   {
     question: "Where do I get the download?",
     answer:
-      "Use a Download Anishie button on this page. Set DOWNLOAD_URL to your official APK or app-store page before publishing.",
+      "Use a Download Anishie button on this page.",
   },
 ];
 
