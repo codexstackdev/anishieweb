@@ -9,6 +9,12 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@types/jsonwebtoken": "^9.0.10",
+    "bcryptjs": "^3.0.3",
+    "disable-devtool": "^0.3.9",
+    "jose": "^6.2.18",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.12.2",
     "next": "16.4.6",
     "react": "19.3.0",
     "react-dom": "19.3.0"
