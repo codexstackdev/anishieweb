@@ -20,6 +20,7 @@ export async function POST(req: NextRequest) {
         { status: 400 },
       );
     const verifyPassword = await bcrypt.compare(password, user.password);
+    if(!verifyPassword) return NextResponse.json({success: false, message: "Invalid password"}, {status: 400})
     const token = jwt.sign(
       { user: user._id },
       process.env.SECRET_KEY as string,
